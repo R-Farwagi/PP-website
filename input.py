@@ -1,8 +1,9 @@
 import datetime
 print("enter three action to schedule your day!")
-date= int(datetime.datetime.now())
+date= str(datetime.datetime.now())
 
-
+print (date)
+time= int(date[11:19])
 i = 0
 time1 = date
 for i in range (date):
